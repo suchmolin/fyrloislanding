@@ -1,0 +1,1266 @@
+
+@font-face {
+  font-family: 'Satisfy-Regular';
+  src: url('../font/Satisfy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+ 
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.satisfy-regular {
+  font-family: 'Satisfy-Regular', sans-serif;
+  color: #FDF93B;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.no_summer {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #001A70;  
+ 
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.no_summer_sm {
+
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #001A70;
+  
+  
+}
+
+
+
+
+.text_azul {
+  color: #001A70;
+}
+
+.text_verde {
+  color: #97D700;
+}
+
+.text_magenta {
+  color: #D60078; 
+}
+
+
+.text_naranja {
+  color: #FFA400;
+}
+
+.text_amarillo {
+  color: #FFD700;
+}
+
+.text_gris {
+  color: #424242;
+}
+
+
+
+.btn-sociale {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #001A70;
+  border: 1px solid #001A70;
+  border-radius: 25px;
+  }
+
+
+  .btn-sociale:hover {    
+      color: white;
+      background-color: #D60078;
+      border: 1px solid #D60078;
+      }
+
+
+
+
+
+.cinta_mov {
+
+position: absolute;
+
+left: 0;
+width: 110%;
+background: #fa007b;
+border-bottom: 10px solid #000b7a;
+
+
+display: flex;
+align-items: center;
+
+
+
+}
+
+.ul_mov {
+  
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  list-style-type: disc;
+  color: white;
+  font-size: 30px;
+  line-height: 36px;
+  flex-wrap: nowrap;
+  margin: 0;
+  margin-left: -1600px;
+  text-align: right;
+  
+  
+}
+
+
+.kid {margin-bottom: -80px; margin-left: -20px;}
+      
+/* del boton back to top whatsupp */
+
+.back_whatsupp {
+  background-color: #25D366;
+  color: white;
+  width: 48px;
+  height: 48px;
+  border-radius: 30px;
+  position: fixed;
+  right: 35px;
+  bottom: 25px;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  
+}
+
+.back_whatsupp:hover {
+background-color: white;
+color: #25D366;
+}
+
+
+
+/* cierre del boton whatsupp */
+
+
+
+
+.navbar {    
+  background-color: white;
+  font-size: 18px;  
+    }
+
+
+
+
+
+
+    
+/* del home */
+
+.homerr {
+  width: 100%;
+  height: 110vh;  /* viewport's height */          
+  
+  z-index: 1;
+  background-size: cover;     /* para que la imagen se ajuste a la pantalla */
+  background-position: center; /* centra y ajusta */
+
+
+}
+
+
+.cover-container {
+  max-width: 66em;       /* crea una separación de izq a dere mejora el centrado */
+ 
+}
+
+
+
+.button-p {
+  
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 100px;
+  box-shadow: #001A70 7px 7px 0 0;
+  color: #001A70;
+  cursor: pointer;
+
+  font-weight: 800;
+ 
+
+
+  text-align: left;
+
+
+
+  text-decoration: none;
+  
+  transition: all 0.5s ease;
+}
+
+.button-p:hover {
+  background-color: #D60078;
+  color: white;
+  
+}
+
+
+
+
+
+.button-i {
+  position: absolute;
+  right: 4px;
+  top: 5px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #001A70;
+  border-radius: 100px;
+  transition: all 1s ease;
+ 
+ }
+ 
+ 
+ .button-p:hover .button-i{
+ background-color: white;
+ color:#001A70;
+ transition: all 1s ease;
+ } /* para que lo q suceda en uno afecte al otros  */
+ 
+ 
+ 
+ .card_a {
+ 
+   background-color: #001A70;
+   color: white;
+   border-radius: 35px;
+   border: none;
+   width: 100%;
+   
+   }
+   
+   
+ .card_b {
+   
+ background-color: #97D700;
+ color: #001A70;  
+ border-radius: 35px;
+ border: none;
+ width: 100%;
+     
+ }
+   
+   
+ .card_c {
+   
+ background-color: #D60078;
+ color: white;
+ border-radius: 35px;
+ border: none;
+ width: 100%;
+       
+  }
+   
+   
+ .card_d {
+   
+ background-color: #FFA400;
+ color: #001A70;
+ border-radius: 35px;
+ border: none;
+ width: 100%;
+         
+  }
+ 
+
+
+
+
+
+
+
+
+  .button-m {
+ 
+    background-color: #97D700;
+    
+    color: white;
+    cursor: pointer;
+    font-weight: 800;
+    text-align: center;
+    
+    text-decoration: none;
+  
+    transition: all 0.5s ease;
+  }
+  
+  .button-m:hover {
+    background-color: #FFA400;
+    color: white;
+    
+  }
+  
+  .card_envios {
+  
+    background-color: #001A70;
+   
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    
+    }
+  
+  
+  
+    .button-send {
+   
+      background-color: #FFD700;
+      border-radius: 100px;
+     
+      color: #001A70;
+      cursor: pointer;
+    
+      font-weight: 800;
+      font-size: 28px;
+    
+      line-height: 60px;
+      text-align: center;
+      
+      text-decoration: none;
+      width: 280px;
+      height: 60px;
+      transition: all 0.5s ease;
+    }
+    
+    .button-send:hover {
+      background-color: #97D700;
+      color: white;
+      
+    }
+
+/*
+
+    .button-send:active {
+      transform: translate(0px, 4px);
+      border-bottom: 4px solid transparent;
+      background-color: #97D700;
+      color: white;
+    }  */
+
+
+
+    .btn-primary_alt_short_ccc {
+      width: 280px;
+      height: 60px;
+      background-color: #FFD700;
+      color: #001A70;
+      border: none;   /*los botones siempre tienen un borde por defecto, quitarlo */
+      font-size: 28px;
+      font-weight: bold;  /* para que quedan mas gruesas */
+
+      cursor: pointer;
+      transition: all 0.5s ease;
+      border-radius: 100px;
+      }
+  
+  
+      .btn-primary_alt_short_ccc:hover {
+  
+          background-color: #97D700;
+          color: #001A70;
+      
+      }
+
+
+      .btn-primary_alt_short_ccc:disabled {
+
+        background-color: #97D700;
+        color: #001A70;
+      }
+    
+
+      .btn-primary_alt_short_ccc:active {
+  
+        background-color: #97D700;
+        color: #001A70;
+    
+    }
+
+
+  .button-foot {
+ 
+    background-color: #001A70;
+   
+    
+   
+    color: white;
+    cursor: pointer;
+  
+    font-weight: 800;
+    
+    text-align: center;
+    
+    text-decoration: none;
+    
+    transition: all 0.5s ease;
+  }
+  
+  .button-foot:hover {
+    background-color: #D60078;
+    color: white;
+    
+  }
+
+
+
+
+
+
+  .el_footer {
+
+
+    width: 100%;   
+    background-repeat: no-repeat;
+    margin-top:10px;
+    background-image: url("../img_plan/footer_huge.webp");
+
+    background-size: cover;     /* para que la imagen se ajuste a la pantalla */
+    background-position: center; /* centra y ajusta */
+
+    
+   }
+  
+  
+  
+  .text_f {
+  
+  font-size: 18px;
+  font-weight: 600;
+  color: #001A70;
+  
+  }
+  
+  
+  .text_f:hover {
+  
+  color: #D60078;
+    
+    
+    }
+
+
+
+
+    .text_nav {
+  
+      font-size: 18px;
+      font-weight: 600;
+      color: #001A70;
+      
+      }
+      
+      
+      .text_nav:hover {
+      
+      color: #D60078;
+        
+        
+        }
+
+
+
+
+
+    .card_med_m {
+
+      position: relative;
+      background: linear-gradient(to bottom, #D60078 24%, white 24% );
+      color: #001A70;
+      border-radius:10px 10px 25px 25px;
+      border: none;
+      width: 100%;
+      height: 220px;
+      
+      }
+
+      .card_med_g {
+        position: relative;
+        background: linear-gradient(to bottom, #97D700 24%, white 24% );
+        color: #001A70;
+        border-radius:10px 10px 25px 25px;
+        border: none;
+        width: 100%;
+        height: 220px;
+        
+        }
+
+
+
+        
+.button-peq_a {
+ 
+  background-color: #D60078;
+
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.button-peq_a:hover {
+  background-color: #FFA400;
+  color: white;
+  
+}
+
+
+
+
+.button-peq_b {
+ 
+  background-color: #97D700;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  
+
+  text-align: center;
+  padding-top: 3px;
+  text-decoration: none;
+
+  transition: all 0.5s ease;
+}
+
+.button-peq_b:hover {
+  background-color: #FFA400;
+  color: white;
+  
+}
+
+
+.card_med_d {
+
+  background-color: white;
+  color: #001A70;
+  border-radius:15px 15px 30px 30px;
+  border: none;
+  width: 100%;
+  
+
+  }
+
+
+
+
+
+
+
+
+  /* Small small devices (mayoria de celulares) */
+  @media (min-width: 270px) and (max-width: 340px)  { 
+
+    .homerr {  background-image: url("../img_plan/plan_smallest.webp");
+               margin-top: -50px; }
+     nav.navbar {display: none; }
+  
+     .subete {margin-top: 40px;}
+  
+     .subegale {margin-top: -50px;}
+  
+     .satisfy-regular {font-size: 80px; margin-top: -50px; margin-left: 0px;}
+     .no_summer {font-size: 28px; margin-top: -1rem; }
+     .no_summer_sm {font-size: 15px;   margin-top: -5.9rem; }
+  
+     .button-p { font-size: 18px; width: 280px; height: 50px; margin-top: -30px; margin-left: -10px;  padding-top: 0.7rem;  padding-left: 1rem;}
+  
+     .button-i {  width: 55px; height: 44px; top: 4px; }
+  
+     .button-m { border-radius: 100px;  font-size: 24px;  line-height: 40px;   width: 280px;   height: 40px;   }
+  
+     #galeria_bb, #galeria_cc { display: none; }
+  
+     #chao {        display: none;       }
+  
+     .bajatete{margin-top: 15px;}
+  
+     .gallery_a {
+  
+        width: 240px;
+        height: 70vmin; 
+    margin-left: -7px; }
+  
+  
+  
+  
+    .button-foot { border-radius: 100px; font-size: 24px;
+  
+        line-height: 50px;  width: 280px;         height: 50px;  }
+  
+  
+        .inner_bb {
+            width: 100%;
+           padding-bottom: 35px;
+            background: linear-gradient(to right, #FFD700 13%, #FFD700 13% 33%, #FFD700 33%);
+           }
+  
+  
+  
+           .button-peq_a {  border-radius: 50px;   font-size: 18px;   padding-top: 5px;   width: 170px;
+            height: 36px; }
+  
+            .button-peq_b {  border-radius: 50px;   font-size: 18px;   padding-top: 5px;   width: 170px;
+                height: 36px; }
+  
+  
+                .card_med_m {
+  
+                    margin-left: -34px;
+                    width: 250px;
+                                       
+                    }
+  
+                    .card_med_g {
+  
+                        margin-left: -34px;
+                        width: 250px;
+                       
+                        
+                        } 
+  
+  
+                        .card_med_d {
+  
+                            margin-left: -34px;
+                            width: 250px;
+                                                      
+                            }
+  
+                            .reloj {margin-left: 24px;}
+                            .fecha_c {width:220.8px; height:96px;}
+  
+                            .acomodate {margin-left: -4px;}
+
+                            .deredere {margin-left: 2px;}
+
+                            .cinta_mov{bottom: 0px;}   
+
+                            .variacion_aa {font-size: 24px; margin-top: 15px;}
+                            .variacion_bb {font-size: 20px;}  
+                            .variacion_gg {font-size: 16px; margin-top: 15px;} 
+                            
+                            .edit_esmall {font-size: 16px; }
+  
+  
+     
+  }
+  
+
+
+
+
+
+
+
+  /* Small devices (mayoria de celulares) */
+  @media (min-width: 341px) and (max-width: 401px)  { 
+
+    .homerr {  background-image: url("../img_plan/Vacacional.webp");
+               margin-top: -50px; }
+     nav.navbar {display: none; }
+  
+     .subete {margin-top: 40px;}
+  
+     .subegale {margin-top: -50px;}
+  
+     .satisfy-regular {font-size: 90px; margin-top: -70px;}
+     .no_summer {font-size: 32px; margin-top: -1rem; }
+     .no_summer_sm {font-size: 16px;   margin-top: -6.5rem; }
+  
+     .button-p { font-size: 20px; width: 300px; height: 50px; margin-top: -30px;   padding-top: 0.7rem;  padding-left: 1rem;}
+  
+     .button-i {  width: 55px; height: 44px; top: 4px; }
+  
+     .button-m { border-radius: 100px;  font-size: 24px;  line-height: 40px;   width: 280px;   height: 40px;   }
+  
+     #galeria_bb, #galeria_cc { display: none; }
+  
+     #chao {        display: none;       }
+  
+     .bajatete{margin-top: 15px;}
+  
+     .gallery_a {
+  
+        width: 290px;
+        height: 70vmin; 
+    margin-left: -7px; }
+  
+  
+  
+  
+    .button-foot { border-radius: 100px; font-size: 24px;
+  
+        line-height: 50px;  width: 280px;         height: 50px;  }
+  
+  
+        .inner_bb {
+            width: 100%;
+           padding-bottom: 35px;
+            background: linear-gradient(to right, #FFD700 13%, #FFD700 13% 33%, #FFD700 33%);
+           }
+  
+  
+  
+           .button-peq_a {  border-radius: 50px;   font-size: 18px;   padding-top: 5px;   width: 170px;
+            height: 36px; }
+  
+            .button-peq_b {  border-radius: 50px;   font-size: 18px;   padding-top: 5px;   width: 170px;
+                height: 36px; }
+  
+  
+                .card_med_m {
+  
+                    margin-left: -8px;
+                    width: 250px;
+                                       
+                    }
+  
+                    .card_med_g {
+  
+                        margin-left: -8px;
+                        width: 250px;
+                       
+                        
+                        }
+  
+  
+                        .card_med_d {
+  
+                            margin-left: -8px;
+                            width: 250px;
+                                                      
+                            }
+  
+                            .reloj {margin-left: 24px;}
+                            .fecha_c {width:220.8px; height:96px;}
+  
+                            .acomodate {margin-left: -4px;}
+
+                            .deredere {margin-left: 2px;}
+
+                            .cinta_mov{bottom: 0px;}   
+
+                            .variacion_aa {font-size: 28px; margin-top: 15px;}
+                            .variacion_bb {font-size: 24px;}  
+                            .variacion_gg {font-size: 18px; margin-top: 15px;}  
+  
+  
+     
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /* Small devices (mayoria de celulares) */
+  @media (min-width: 402px) and (max-width: 540px)  { 
+  
+    .homerr {  background-image: url("../img_plan/PlanVacacional2024.webp");  margin-top: -50px; }
+     nav.navbar {display: none; }
+  
+     .subete {margin-top: 40px;}
+  
+     .subegale {margin-top: -50px;}
+  
+     .satisfy-regular {font-size: 110px; margin-top: -30px;}
+     .no_summer {font-size: 36px; margin-top: -20px;}
+     .no_summer_sm {font-size: 22px;   margin-top: -130px; }
+  
+     .button-p { font-size: 22px; width: 360px; height: 60px; margin-top:-30px ;   padding-top: 0.8rem;  padding-left: 1rem;}
+  
+     .button-i {  width: 100px; height: 54px; top: 4px; }
+  
+     .button-m { border-radius: 100px;  font-size: 26px;  line-height: 50px;   width: 300px;   height: 50px;   }
+  
+     #galeria_bb, #galeria_cc { display: none; }
+  
+     #chao {        display: none;       }
+  
+     .gallery_a {
+  
+        width: 350px;
+        height: 70vmin; 
+    margin-left: -16px; }
+  
+   
+     .bajatete{margin-top: 15px;}
+  
+  
+  
+     .button-foot { border-radius: 100px; font-size: 26px;
+  
+        line-height: 60px;  width: 340px;         height: 60px;  }
+  
+  
+        .inner_bb {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right, #FFD700 13%, #FFD700 13% 33%, #FFD700 33%);
+            padding-bottom: 35px;
+           }
+  
+  
+  
+           .button-peq_a {  border-radius: 50px;   font-size: 18px;   padding-top: 5px;   width: 170px;
+            height: 36px; }
+  
+            .button-peq_b {  border-radius: 50px;   font-size: 18px;   padding-top: 5px;   width: 170px;
+                height: 36px; }
+  
+  
+  
+  
+                .card_med_m {
+  
+                    margin-left: -18px;
+                    width: 300px;
+                                       
+                    }
+  
+                    .card_med_g {
+  
+                        margin-left: -18px;
+                        width: 300px;
+                       
+                        
+                        }
+  
+  
+                        .card_med_d {
+  
+                            margin-left: -18px;
+                            width: 300px;
+                                                      
+                            }
+  
+  
+                            .fecha_c {width:220.8px; height:96px;}
+  
+                            .reloj {margin-left: 24px;}
+  
+                            .acomodate {margin-left: -4px;}
+
+                            .deredere {margin-left: 1px;}
+                          
+
+                            .cinta_mov{bottom: 0px;}   
+
+                            .variacion_aa {font-size: 34px; margin-top: 15px;}
+                            .variacion_bb {font-size: 28px;}  
+                            .variacion_gg {font-size: 20px; margin-top: 15px;}   
+  
+  
+  }
+  
+  
+  
+  
+  /* Medium devices (tablets)  */
+  @media (min-width: 541px) and (max-width: 860px)  {
+  
+    .homerr {  background-image: url("../img_plan/PlanVacacionalmed.webp"); margin-top: -50px;}
+    nav.navbar {display: none; }
+    
+  
+    .satisfy-regular {font-size: 110px; margin-top: -110px;}
+    
+    .no_summer {font-size: 38px; margin-top: -24px;}
+    .no_summer_sm {font-size: 22px;   margin-top: -134px; }
+  
+    .button-p { font-size: 18px; width: 320px; height: 40px;  margin-top: -30px; padding-top: 8px; padding-left: 12px;}
+  
+    .button-i {  width: 90px; height: 32px; }
+  
+    .button-m { border-radius: 100px;  font-size: 28px;  line-height: 56px;   width: 360px;   height: 60px;   }
+  
+    #galeria_bb, #galeria_cc { display: none; }
+  
+    .gallery_a, .gallery_b, .gallery_c {
+  
+        width: 500px;
+       height: 80vmin;
+       margin-left: 15px;  }
+  
+       #chao {        display: none;       }
+  
+  
+       .button-foot { border-radius: 100px; font-size: 28px;
+  
+        line-height: 70px;  width: 350px;         height: 70px;  }
+  
+  
+        .inner_bb {
+            width: 100%;
+            height: 100%;
+            
+            background: linear-gradient(to right, #FFD700 13%, #FFD700 13% 33%, #FFD700 33%);
+           }
+  
+  
+           .button-peq_a {  border-radius: 50px;   font-size: 18px;   padding-top: 3px;   width: 170px;
+            height: 36px; }
+  
+            .button-peq_b {  border-radius: 50px;   font-size: 18px;   padding-top: 3px;   width: 170px;
+                height: 36px; }
+  
+  
+  
+                .subete {margin-top: 44px;} 
+               
+  
+                            .reloj {margin-left: 44px;}
+  
+           .cinta_mov{bottom: 0px;}   
+
+           .variacion_aa {font-size: 40px;}
+           .variacion_bb {font-size: 34px;}  
+           .variacion_gg {font-size: 24px; margin-top: 15px;}            
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 400px) and (max-width: 767px)  {
+    .inner_bb{
+      height: fit-content;
+    }
+
+  }
+  
+  
+  @media (min-width: 1px) and (max-width: 991px)  {
+    #chao {display: none;}
+  }
+  
+  
+
+/* Large tablets   */
+@media (min-width: 861px) and (max-width: 1220px)  {
+
+  nav.navbar {display: none; }
+
+  .homerr {  background-image: url("../img_plan/Back_fullhd.webp");  }
+    
+
+  
+  .satisfy-regular {font-size: 110px; margin-top: -100px; margin-left: -150px; }
+  .no_summer {font-size: 40px; margin-top: -20px;}
+  .no_summer_sm {font-size: 22px; margin-top: -130px;}
+
+  .subete {margin-top: 60px;}
+
+  .cinta_mov {bottom: 0px;}
+
+  .kid {margin-bottom: -180px; margin-left: -40px;}
+
+.horr_ff {margin-top: 20px;}
+
+  .button-p { font-size: 22px; width: 380px; height: 60px;   padding-top: 0.8rem;
+    padding-left: 1rem; margin-left: -150px; }
+
+  .button-i {  width: 120px; height: 50px; }
+
+  .button-m { border-radius: 100px;  font-size: 28px;  line-height: 80px;   width: 480px;   height: 80px;   }
+    
+  .chentrate {text-align: left;}
+
+  .gallery_a, .gallery_b, .gallery_c {
+
+      width: 280px;
+     height: 48vmin;  }
+
+
+
+     .button-foot { border-radius: 100px; font-size: 28px;
+
+      line-height: 80px;  width: 380px;         height: 80px;  }
+
+
+      .inner_bb {
+          width: 100%;
+          max-height: 700px;
+          background: linear-gradient(to right, #FFD700 13%, #97D700 13% 33%, #FFD700 33%);
+          overflow: hidden;
+         }
+
+
+
+         .button-peq_a {  border-radius: 50px;   font-size: 18px;   padding-top: 4px;   width: 170px;
+          height: 36px; }
+
+          .button-peq_b {  border-radius: 50px;   font-size: 18px;   padding-top: 4px;   width: 170px;
+              height: 36px; }
+
+              .variacion_aa {font-size: 48px;}
+              .variacion_bb {font-size: 40px;}
+              .variacion_gg {font-size: 24px; margin-top: 15px;}
+
+              .variacion_jj {font-size: 20px;}
+              .variacion_uu {font-size: 26px;}
+
+
+
+}
+
+
+
+/* Large tablets   */
+@media (min-width: 1221px) and (max-width: 1441px)  {
+
+
+  .homerr {  background-image: url("../img_plan/Back_fullhd.webp");  }
+    
+  .horr_ff {margin-top: 20px;}
+  .kid {margin-bottom: -180px; margin-left: -20px;}
+  
+    .satisfy-regular {font-size: 140px; margin-top: -100px; margin-left: -150px; }
+    .no_summer {font-size: 50px; margin-top: -25px;}
+    .no_summer_sm {font-size: 28px; margin-top: -160px;}
+
+    .subete {margin-top: 60px;}
+
+    .cinta_mov {bottom: 0px;}
+
+
+  
+    .button-p { font-size: 22px; width: 380px; height: 60px;   padding-top: 0.8rem;
+      padding-left: 1rem; margin-left: -150px; }
+  
+    .button-i {  width: 120px; height: 50px; }
+  
+    .button-m { border-radius: 100px;  font-size: 28px;  line-height: 80px;   width: 480px;   height: 80px;   }
+      
+    .chentrate {text-align: left;}
+  
+    .gallery_a, .gallery_b, .gallery_c {
+  
+        width: 320px;
+       height: 50vmin;  }
+  
+  
+  
+       .button-foot { border-radius: 100px; font-size: 28px;
+  
+        line-height: 80px;  width: 380px;         height: 80px;  }
+  
+  
+        .inner_bb {
+            width: 100%;
+            max-height: 700px;
+            background: linear-gradient(to right, #FFD700 13%, #97D700 13% 33%, #FFD700 33%);
+            overflow: hidden;
+           }
+  
+  
+  
+           .button-peq_a {  border-radius: 50px;   font-size: 18px;   padding-top: 4px;   width: 170px;
+            height: 36px; }
+  
+            .button-peq_b {  border-radius: 50px;   font-size: 18px;   padding-top: 4px;   width: 170px;
+                height: 36px; }
+  
+ 
+
+
+
+}
+
+
+
+
+
+  
+  
+  /* Large devices (desktops, 1442px and up)  */
+  @media (min-width: 1442px) { 
+  
+    .homerr {  background-image: url("../img_plan/Back_fullhd.webp");  }
+    
+  
+    .satisfy-regular {font-size: 170px; margin-top: -100px;}
+    .no_summer {margin-top: -30px;}
+    .no_summer_sm {font-size: 35px; margin-top: -200px;}
+
+    .subete {margin-top: 40px;}
+    .cinta_mov {bottom: 0;}
+  
+    .button-p { font-size: 28px; width: 480px; height: 80px;   padding-top: 1.2rem;
+      padding-left: 1rem;}
+  
+    .button-i {  width: 140px; height: 70px; }
+  
+    .button-m { border-radius: 100px;  font-size: 28px;  line-height: 80px;   width: 480px;   height: 80px;   }
+      
+    .chentrate {text-align: left;}
+  
+    .gallery_a, .gallery_b, .gallery_c {
+  
+        width: 400px;
+       height: 60vmin;  }
+  
+  
+  
+       .button-foot { border-radius: 100px; font-size: 28px;
+  
+        line-height: 80px;  width: 380px;         height: 80px;  }
+  
+  
+        .inner_bb {
+            width: 100%;
+            max-height: 700px;
+            background: linear-gradient(to right, #FFD700 13%, #97D700 13% 33%, #FFD700 33%);
+            overflow: hidden;
+           }
+  
+  
+  
+           .button-peq_a {  border-radius: 50px;   font-size: 18px;   padding-top: 3px;   width: 170px;
+            height: 36px; }
+  
+            .button-peq_b {  border-radius: 50px;   font-size: 18px;   padding-top: 3px;   width: 170px;
+                height: 36px; }
+  
+  }
+  
+  
+  
+  
+  /* X-Large devices (large desktops, 1200px and up)  
+  @media (min-width: 1200px) { }
+  @media (min-width: 1400px) { }  */
+  
+  

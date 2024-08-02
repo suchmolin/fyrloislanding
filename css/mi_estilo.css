@@ -636,6 +636,26 @@ color: #25D366;
 
   }
 
+  .resenas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .resenas_box{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+  .resenas_item{
+    width: 33%;
+    min-height: 350px;
+    border-radius: 25px;
+    overflow: hidden;
+  }
 
 
 
@@ -645,6 +665,12 @@ color: #25D366;
 
   /* Small small devices (mayoria de celulares) */
   @media (min-width: 270px) and (max-width: 340px)  { 
+    .resenas_box{
+      flex-wrap: wrap;
+    }
+    .resenas_item{
+      width: 95%;
+    }
 
     .homerr {  background-image: url("../img_plan/plan_smallest.webp");
                margin-top: -50px; }
@@ -750,6 +776,12 @@ color: #25D366;
 
   /* Small devices (mayoria de celulares) */
   @media (min-width: 341px) and (max-width: 401px)  { 
+    .resenas_box{
+      flex-wrap: wrap;
+    }
+    .resenas_item{
+      width: 95%;
+    }
 
     .homerr {  background-image: url("../img_plan/Vacacional.webp");
                margin-top: -50px; }
@@ -864,7 +896,14 @@ color: #25D366;
   
   /* Small devices (mayoria de celulares) */
   @media (min-width: 402px) and (max-width: 540px)  { 
-  
+
+    .resenas_box{
+      flex-wrap: wrap;
+    }
+    .resenas_item{
+      width: 85%;
+    }
+    
     .homerr {  background-image: url("../img_plan/PlanVacacional2024.webp");  margin-top: -50px; }
      nav.navbar {display: none; }
   
@@ -967,6 +1006,14 @@ color: #25D366;
   
   /* Medium devices (tablets)  */
   @media (min-width: 541px) and (max-width: 860px)  {
+    .resenas_box{
+      flex-wrap: wrap;
+    }
+    .resenas_item{
+      width: 65%;
+    }
+
+
   
     .homerr {  background-image: url("../img_plan/PlanVacacionalmed.webp"); margin-top: -50px;}
     nav.navbar {display: none; }
@@ -1070,6 +1117,12 @@ color: #25D366;
 
 /* Large tablets   */
 @media (min-width: 861px) and (max-width: 1220px)  {
+  .resenas_box{
+    flex-wrap: wrap;
+  }
+  .resenas_item{
+    width: 35%;
+  }
 
   nav.navbar {display: none; }
 
@@ -1132,6 +1185,7 @@ color: #25D366;
               .variacion_jj {font-size: 20px;}
               .variacion_uu {font-size: 26px;}
 
+            
 
 
 }
@@ -1196,6 +1250,8 @@ color: #25D366;
  
 
 
+                
+
 
 }
 
@@ -1204,9 +1260,9 @@ color: #25D366;
 
 
   
-  
   /* Large devices (desktops, 1442px and up)  */
   @media (min-width: 1442px) { 
+
   
     .homerr {  background-image: url("../img_plan/Back_fullhd.webp");  }
     
